@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Header to be centered. */
+h1 {
+  text-align: center;
+}
+
+/* Navigation Bar with Links. Center links, add left & right side padding of 10px. Change background color */
+nav {
+  text-align: center;
+}
+
+#nav-links {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #59040C;
+  color: white;
+}
+
+#featured-property {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+img {
+  width: 900px;
+  text-align: center;
+}
+
+p.main-text {
+  text-align: center;
+}
+
+.outer {background-color: #C3B38D;}
+.outer > * {
+  display: block;
+  text-align: center;
+  background-color: #C3B38D;
+}
+.contact {width: 25%; display: block; float: left;}
+.correspondence {width: 25%; display: block; float: left;}
+.links {width: 25%; display: block; float: left;}
+.follow {width: 25%; display: block; float: left;}
+
+
+h3 {
+  font-weight: bold;
+}
